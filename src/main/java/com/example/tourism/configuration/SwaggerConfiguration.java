@@ -13,12 +13,11 @@ public class SwaggerConfiguration {
 
     @Bean
     public OpenAPI customOpenApi() {
-        return new OpenAPI().info(new Info().title("Бібліотечний фонд")
+        return new OpenAPI().info(new Info().title("Туристичний комплекс")
                                             .version("1.0")
                                             .description("Курсова робота - 2 курс, 2 семестр")
                                             .license(new License().name("Apache 2.0")
                                                                   .url("http://springdoc.org"))
-                                            .contact(new Contact().name("Гавалешко Богдана")
-                                                                  .email("gavaleskobogdana@gmail.com")));
+                                            .contact(new Contact().name("Барчук Василь")));
     }
 }

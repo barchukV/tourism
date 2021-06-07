@@ -17,5 +17,6 @@ import java.util.Map;
 public class Diary {
     @Id
     private String id;
-    Map<String, String> halts;
+    private String stopPlaces;
+    private String stopTime;
 }
