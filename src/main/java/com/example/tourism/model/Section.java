@@ -19,6 +19,4 @@ public class Section {
     private String id;
     private String name;
     private Head head;
-    private List<Coach> coachList;
-    private List<Schedule> scheduleList;
 }

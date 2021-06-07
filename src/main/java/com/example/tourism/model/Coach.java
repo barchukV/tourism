@@ -15,7 +15,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Coach {
     @Id
     private String id;
-    private Tourist tourist;
+    private String name;
+    private int age;
+    private String category;
     private String experience;
-
 }
